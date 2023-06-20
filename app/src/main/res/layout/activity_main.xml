@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="#979595"
+        android:text="Welcome to MovieSite"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/btnRegisterMovie"
+        android:layout_width="201dp"
+        android:layout_height="195dp"
+        android:layout_below="@+id/text1"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Register Movie"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnDisplayMovies"
+        android:layout_width="185dp"
+        android:layout_height="195dp"
+        android:layout_below="@+id/btnRegisterMovie"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-199dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="5dp"
+        android:text="Display Movie"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnFavourites"
+        android:layout_width="201dp"
+        android:layout_height="171dp"
+        android:layout_below="@+id/btnDisplayMovies"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Favourites"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnEditMovies"
+        android:layout_width="185dp"
+        android:layout_height="171dp"
+        android:layout_below="@+id/btnFavourites"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="-176dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="5dp"
+        android:text="Edit Movies"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="198dp"
+
+        android:layout_height="176dp"
+        android:layout_below="@+id/btnEditMovies"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="5dp"
+        android:text="Search"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnRatings"
+        android:layout_width="188dp"
+        android:layout_height="171dp"
+        android:layout_below="@+id/btnSearch"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-169dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="5dp"
+        android:text="Ratings"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>
+
